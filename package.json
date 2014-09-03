@@ -1,0 +1,45 @@
+{
+  "name": "passport-canvas",
+  "version": "0.0.1",
+  "description": "Canvas authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "canvas",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dmapper/passport-canvas.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dmapper/passport-canvas/issues"
+  },
+  "author": {
+    "name": "Artur Zayats",
+    "email": "zag2art@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-canvas",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/dmapper/passport-canvas"
+}
